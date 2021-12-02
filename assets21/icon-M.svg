@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="331.5" height="288.054" viewBox="0 0 331.5 288.054">
+  <g>
+    <path d="M348,368" transform="translate(-90.25 -111.973)" fill="none" stroke="#ed1c24" stroke-miterlimit="10"/>
+    <path d="M188,368" transform="translate(-90.25 -111.973)" fill="none" stroke="#ed1c24" stroke-miterlimit="10"/>
+    <polygon points="96 144.054 48 288.054 0 288.054 48 144.054 96 144.054" fill="#2d3079"/>
+    <polyline points="234 0.044 186 0.044 90 288.044 138 288.054 234 0.054 137.634 287.313" fill="#e0e0e0"/>
+    <polyline points="283.5 288 187.5 0 235.5 0.044 331.5 288.044 283.5 288 282.642 287.313" fill="#d0d1d0"/>
+  </g>
+</svg>
