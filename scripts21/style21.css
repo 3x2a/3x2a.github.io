@@ -151,41 +151,42 @@ nav ul a {
 
 /*-------------------------------------------------Hero Section-------------------------------------------------*/
 
-.direct-hi {
-    background-image: url("/assets21/direct-hero-img.png");
-    height: 90vh;
-    width: 100vw;
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-
-.hero-image-index21 {
+.hero-image-full {
     background-image: url("/assets21/img_background.jpg");
     height: 93.5vh;
     width: 100vw;
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
+    position: Srelative;
 }
 
-.hero-image-gallery21 {
+.hero-image-large-banner {
     background-image: url("/assets21/img_background.jpg");
-    height: 89.3vh;
-    width: 98.8vw;
+    height: 73.5vh;
+    width: 100vw;
     background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+
+.hero-image-banner {
+    background-image: url("/assets21/img_background_gallery.jpg");
+    height: 53.5vh;
+    width: 100vw;
+    background-color: #ced4da;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 }
 
-.hero-image-about21 {
-    /*background-image: url("/assets21/img_background_gallery.jpg");*/
-    height: 465px;
-    width: 1396;
-    background-color: #ced4da;
+.direct-hi {
+    background-image: url("/assets21/direct-hero-img.png");
+    height: 90vh;
+    width: 100vw;
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -202,25 +203,18 @@ nav ul a {
     position: relative;
 }
 
-.hero-image-blank21 {
-    /*background-image: url("/assets21/img_background_blank21.png");*/
-    height: 100vh;
-    width: 98.9vw;
-    background-color: #aaaaaa;
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+.block-full {
+    padding: 276px;   
 }
 
-.block-1 {
-    padding: 276px 0px 0px 0px;   
+.block-l-banner {
+    padding: 276px;   
 }
 
-.elecenter {
-    justify-content: center;    
-}
 
+.block-banner {
+    padding: 60px 0px;   
+}
 /*-------------------------------------------------Class-------------------------------------------------*/
 
 .ha1 {
@@ -394,6 +388,42 @@ h6 {
 
 
 
+
+
+#Avan_41 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 75px;
+}
+
+#A3x2a {
+    font-family: 'Oxanium', cursive;
+    font-weight: 300;
+    padding: 0px 0px 0px 75px;
+    font-size: 75px;
+}
+
+#Direct-1 {
+    font-family: 'Oxanium', cursive;
+    color: var(--white);
+    font-weight: 300;
+    padding: 295px 0px 259px 50px;
+    font-size: 16px;
+}
+
+#Direct-2 {
+    font-family: 'Oxanium', cursive;
+    color: RoyalBlue;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.direct-text {
+    font-family: 'Oxanium', cursive;
+    color: var(--white);
+    padding: 20px 0px 27px 50px;
+
+}
 
 /*-------------------------------------------------END-------------------------------------------------*/
 
