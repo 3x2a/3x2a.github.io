@@ -21,6 +21,8 @@
     --dblue-l:       #1a348e;
 
     --deep-sea-blue: #004780;
+    --img-bg1: url("/assets21/img_background.jpg");
+    --img-bg2: url("/assets21/img_background_gallery.jpg");
 }
 
 * {
@@ -152,7 +154,7 @@ nav ul a {
 /*-------------------------------------------------Hero Section-------------------------------------------------*/
 
 .hero-image-full {
-    background-image: url("/assets21/img_background.jpg");
+    background-image: var(--img-bg1);
     height: 93.5vh;
     width: 100vw;
     background-position: bottom;
@@ -162,7 +164,7 @@ nav ul a {
 }
 
 .hero-image-large-banner {
-    background-image: url("/assets21/img_background.jpg");
+    background-image: var(--img-bg1);
     height: 73.5vh;
     width: 100vw;
     background-position: bottom;
@@ -173,7 +175,7 @@ nav ul a {
 }
 
 .hero-image-banner {
-    background-image: url("/assets21/img_background_gallery.jpg");
+    background-image: var(--img-bg2);
     height: 53.5vh;
     width: 100vw;
     background-color: #ced4da;
