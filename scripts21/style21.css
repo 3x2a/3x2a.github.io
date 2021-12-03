@@ -153,33 +153,49 @@ nav ul a {
 
 /*-------------------------------------------------Hero Section-------------------------------------------------*/
 
+.img-bg1{
+    background-image: var(--img-bg1)
+}
+
+.img-bg2{
+    background-image: var(--img-bg2)
+}
+
 .hero-image-full {
-    background-image: var(--img-bg1);
     height: 93.5vh;
     width: 100vw;
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    position: Srelative;
+    position: relative;
 }
 
 .hero-image-large-banner {
-    background-image: var(--img-bg1);
     height: 73.5vh;
     width: 100vw;
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    text-align: center;
 }
 
 .hero-image-banner {
-    background-image: var(--img-bg2);
+    /*background-image: var(--img-bg2);*/
     height: 53.5vh;
     width: 100vw;
     background-color: #ced4da;
-    background-position: center;
+    background-position: 0% 70%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-image-s-banner {
+    /*background-image: var(--img-bg2);*/
+    height: 33.5vh;
+    width: 100vw;
+    background-color: #ced4da;
+    background-position: 0% 70%;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -206,7 +222,7 @@ nav ul a {
 }
 
 .block-full {
-    padding: 276px;   
+    padding: 276px 0px;   
 }
 
 .block-l-banner {
@@ -217,13 +233,12 @@ nav ul a {
 .block-banner {
     padding: 60px 0px;   
 }
-/*-------------------------------------------------Class-------------------------------------------------*/
 
-.ha1 {
-    text-align: 100px 10px;
-    padding: 50px 50px 50px 50px;
-    color: var(--just-black);
+.block-s-banner {
+    padding: 60px 0px;
 }
+
+/*-------------------------------------------------Class-------------------------------------------------*/
 
 .Stitle {
     font-family: 'Open Sans', sans-serif;
