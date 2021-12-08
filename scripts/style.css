@@ -21,8 +21,8 @@
     --dblue-l:       #1a348e;
 
     --deep-sea-blue: #004780;
-    --img-bg1: url("/assets/img_bg1.jpg");
-    --img-bg2: url("/assets/img_bg2.jpg");
+    --img-bg1: url("./assets/img_bg1.jpg");
+    --img-bg2: url("./assets/img_bg2.jpg");
 }
 
 * {
