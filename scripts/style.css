@@ -21,8 +21,8 @@
     --dblue-l:       #1a348e;
 
     --deep-sea-blue: #004780;
-    --img-bg1: url("/assets21/img_background.jpg");
-    --img-bg2: url("/assets21/img_background_gallery.jpg");
+    --img-bg1: url("/assets/img_background.jpg");
+    --img-bg2: url("/assets/img_background_gallery.jpg");
 }
 
 * {
