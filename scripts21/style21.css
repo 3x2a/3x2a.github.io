@@ -154,14 +154,18 @@ nav ul a {
 /*-------------------------------------------------Hero Section-------------------------------------------------*/
 
 .img-bg1{
-    background-image: var(--img-bg1)
+    background-image: var(--img-bg1);
 }
 
 .img-bg2{
-    background-image: var(--img-bg2)
+    background-image: var(--img-bg2);
 }
 
-.hero-image-full {
+.co-dsb {
+    background-color: var(--deep-sea-blue);
+}
+
+.hero-full {
     height: 93.5vh;
     width: 100vw;
     background-position: bottom;
@@ -170,7 +174,7 @@ nav ul a {
     position: relative;
 }
 
-.hero-image-large-banner {
+.hero-l-banner {
     height: 73.5vh;
     width: 100vw;
     background-position: bottom;
@@ -179,22 +183,18 @@ nav ul a {
     position: relative;
 }
 
-.hero-image-banner {
-    /*background-image: var(--img-bg2);*/
+.hero-banner {
     height: 53.5vh;
     width: 100vw;
-    background-color: #ced4da;
     background-position: 0% 70%;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 }
 
-.hero-image-s-banner {
-    /*background-image: var(--img-bg2);*/
+.hero-s-banner {
     height: 33.5vh;
     width: 100vw;
-    background-color: #ced4da;
     background-position: 0% 70%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -211,31 +211,26 @@ nav ul a {
     position: relative;
 }
 
-.hero-bar-morelinks21 {
+.hero-ml21 {
     background-color: var(--deep-sea-blue);
-    height: 256px;
+    height: 33.5vh;
     width: 100vw;
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
 }
 
 .block-full {
-    padding: 276px 0px;   
+    padding: 264px 0px;   
 }
 
 .block-l-banner {
     padding: 276px;   
 }
 
-
 .block-banner {
     padding: 60px 0px;   
 }
 
 .block-s-banner {
-    padding: 60px 0px;
+    padding: 67px 0px;
 }
 
 /*-------------------------------------------------Class-------------------------------------------------*/
@@ -286,6 +281,7 @@ footer {
     font-family: 'Oxanium', cursive;
     text-align: right;
     font-size: 12px;
+    color: inherit;
 }
 
 .flex-container {
@@ -317,7 +313,7 @@ html {
 
 h1 {
     text-align: 100px 10px;
-    padding: 30px 50px 0px 50px;
+    padding: 0px 50px 0px 50px;
     color: var(--just-black);
     font-size: 50px;
 }
@@ -338,7 +334,7 @@ h3 {
 
 h4 {
     text-align: 100px 10px;
-    padding: 30px 50px 0px 50px;
+    padding: 0px 0px 0px 50px;
     color: var(--just-black);
     font-size: 35px;
 }
@@ -418,6 +414,7 @@ h6 {
     font-weight: 300;
     padding: 0px 0px 0px 75px;
     font-size: 75px;
+    margin: 0;
 }
 
 #Direct-1 {
