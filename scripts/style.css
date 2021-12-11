@@ -35,7 +35,16 @@ body {
     background-color: var(--white);
 }
 
-/*-------------------------------------------------Nav-------------------------------------------------*/
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+/*--- Nav ---*/
 li {
 	list-style: none;
     position: relative;
@@ -107,8 +116,6 @@ nav ul a {
     transition: 0.5s;
 }
 
-
-
 .navhov {
     color: var(--gray-l4); /*#eeaa00;*/
     background-position: bottom;
@@ -117,8 +124,6 @@ nav ul a {
     position: relative;
     transition: color 0.5s, color 0.5s; /*hover animation speed*/
 }
-
-
 
 #logo {
 	height: 30px;
@@ -143,7 +148,6 @@ nav ul a {
     font-size: 84px;
 }
 
-
 .mtitle {
     font-family: 'Oxanium', cursive;
     color: var(--just-black);
@@ -151,7 +155,7 @@ nav ul a {
     font-size: 84px;
 }
 
-/*-------------------------------------------------Hero Section-------------------------------------------------*/
+/*--- Header ---*/
 
 .img-bg1 {
     background-image: var(--img-bg1);
@@ -201,16 +205,6 @@ nav ul a {
     position: relative;
 }
 
-.direct-hi {
-    background-image: url("https://Avan-xli.github.io/direct-hero-img.png");
-    height: 90vh;
-    width: 100vw;
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-
 .hero-ml {
     background-color: var(--deep-sea-blue);
     height: 33.5vh;
@@ -218,7 +212,6 @@ nav ul a {
 }
 
 .hero-image-blank {
-    /*background-image: url("/assets21/img_background_blank21.png");*/
     height: 100vh;
     width: 98.9vw;
     background-color: #aaaaaa;
@@ -256,7 +249,7 @@ nav ul a {
     padding: 15px 0px;
 }
 
-/*-------------------------------------------------Class-------------------------------------------------*/
+/*---Class---*/
 
 .Stitle {
     font-family: 'Open Sans', sans-serif;
@@ -265,19 +258,7 @@ nav ul a {
     font-size: 84px;
 }
 
-.E3x2a {
-    font-family: 'Oxanium', cursive;
-    font-weight: 600;
-    padding: 0px 0px 0px 7px;
-}
-
-.text-dash {
-    color: var(--just-black);
-    font-size: 84px;
-}
-
-
-/*-------------------------------------------------Objects-------------------------------------------------*/
+/*--- Objects ---*/
 
 .horiline {
     width: auto;
@@ -292,7 +273,7 @@ nav ul a {
     align-content: center;
 }
 
-/*-------------------------------------------------footer-style-------------------------------------------------*/
+/*--- footer ---*/
 
 footer {
     display: flex;
@@ -313,26 +294,7 @@ footer {
 
 }
 
-/*-------------------------------------------------Misc-------------------------------------------------*/
-
-html {
-    overflow: scroll;
-    overflow-x: hidden;
-}
-::-webkit-scrollbar {
-    width: 0;  /* Remove scrollbar space */
-    background: transparent;  /* Optional: just make scrollbar invisible */
-}
-/* Optional: show position indicator in red */
-::-webkit-scrollbar-thumb {
-    background: #FF0000;
-}
-
-/*body {
-    overflow: hidden;
-}/*Hide Scrole Bar*/
-
-/*-------------------------------------------------Text Style-------------------------------------------------*/
+/*--- Text Style ---*/
 
 h1 {
     text-align: 0px 10px;
@@ -385,56 +347,6 @@ p {
     font-weight: 400;
 }
 
-.title {
-    text-align: 100px 10px;
-    padding: 50px 0px 0px 50px;
-    color: var(--just-black);
-    font-weight: 600;
-    font-size: 64px;
-}
-
-.subtitle {
-    text-align: 100px 10px;
-    padding: 50px 50px 0px 50px;
-    color: #000000;
-    font-size: 40px;
-}
-
-.normaltext {
-    margin-left: 50px;
-    text-align: 0px 500px;
-    padding: 5px 50px 0px 0px;
-    color: var(--just-black);
-    font-size: 24px;
-}
-
-
-
-.subtitle-xl {
-    text-align: 100px 10px;
-    padding: 50px 50px 0px 50px;
-    color: #000000;
-    font-size: 48px;
-}
-
-.subtitle-s {
-    text-align: 100px 10px;
-    padding: 0px 50px;
-    color: #000000;
-    font-size: 36px;
-}
-
-.normaltext-xl {
-    text-align: 100px 10px;
-    padding: 20px 50px 0px 50px;
-    color: var(--just-black);
-    font-size: 32px;
-}
-
-
-
-
-
 #Avan_41 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
@@ -448,50 +360,3 @@ p {
     font-size: 75px;
     margin: 0;
 }
-
-#Direct-1 {
-    font-family: 'Oxanium', cursive;
-    color: var(--white);
-    font-weight: 300;
-    padding: 295px 0px 259px 50px;
-    font-size: 16px;
-}
-
-#Direct-2 {
-    font-family: 'Oxanium', cursive;
-    color: RoyalBlue;
-    font-weight: 600;
-    font-size: 16px;
-}
-
-.direct-text {
-    font-family: 'Oxanium', cursive;
-    color: var(--white);
-    padding: 20px 0px 27px 50px;
-
-}
-
-/*-------------------------------------------------END-------------------------------------------------*/
-
-/*Blinding White        #ffffff */
-/*White                 #fefefe */
-
-/*Gray Light 4          #f8f9fa */
-/*Gray Light 3          #e9ecef */
-/*Gray Light 2          #dee2e6 */
-/*Gray Light 1          #ced4da */
-/*Gray                  #adb5bd */
-/*Gray Dark 1           #6c757d */
-/*Gray Dark 2           #495057 */
-/*Gray Dark 3           #343a40 */
-/*Gray Dark 4           #212529 */
-
-/*Black -1              #1f2225*/
-/*Black                 #161a1d */
-/*Just Black            #000000 */
-
-/*Deep Sea Blue         #004780 */
-
-/*Default Blue Light    #1a348e */
-/*Default Blue          #1a237e */
-/*Default Blue Dark     #1a126e */
