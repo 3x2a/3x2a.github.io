@@ -21,8 +21,8 @@
     --dblue-l:       #1a348e;
 
     --deep-sea-blue: #004780;
-    --img-bg1: url("https://Avan-xli.github.io/img_bg1.jpg");
-    --img-bg2: url("https://Avan-xli.github.io/img_bg2.jpg");
+    --img-bg1: url("https://Avan-xli.github.io/assets/img_bg1.jpg");
+    --img-bg2: url("https://Avan-xli.github.io/asstes/img_bg2.jpg");
 }
 
 * {
@@ -153,11 +153,11 @@ nav ul a {
 
 /*-------------------------------------------------Hero Section-------------------------------------------------*/
 
-.img-bg1{
-    background-image: var(--img-bg1));
+.img-bg1 {
+    background-image: var(--img-bg1);
 }
 
-.img-bg2{
+.img-bg2 {
     background-image: var(--img-bg2);
 }
 
