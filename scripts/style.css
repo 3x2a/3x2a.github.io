@@ -360,3 +360,28 @@ p {
     font-size: 75px;
     margin: 0;
 }
+
+.alert {
+    font-family: 'Oxanium', cursive;
+    padding: 10px 20px 10px 40px;
+    background-color: #ff3333; /* Red */
+    color: white;
+    margin-bottom: 0px;
+  }
+  
+  /* The close button */
+  .closebtn {
+    margin-left: 0px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  /* When moving the mouse over the close button */
+  .closebtn:hover {
+    color: black;
+  }
