@@ -49,17 +49,14 @@ li {
 	list-style: none;
     position: relative;
 }
-
 li a {
     text-align: center;
     top: 24%;
 }
-
 nav ul {
 	display: flex;
     
 }
-
 nav {
 	display: flex;	
 	justify-content: space-between; /*spreads out elements horizontally*/
@@ -67,15 +64,8 @@ nav {
     background-color: var(--just-black);
     height: 50px;
 }
-  
-nav ul a:hover, 
-nav ul a:focus, 
-nav ul a:active {
-    color: #ced4da;
-    text-decoration: none;
-}
 
-nav ul a {
+.nav {
     position: relative; /*position*/
     display: flex; /*item*/
     margin: 0 12px; /*Spacing bettween element*/
@@ -85,10 +75,9 @@ nav ul a {
     font-weight: 500; /*Text weight (thickness)*/
     text-transform: uppercase; /*Text on navigation*/
     transition: color 0.1s,background-color 0.1s,padding 0.2s ease-in; /*hover animation speed*/
-    color: #ced4da;
+    color: var(--gray-l4);
 }
-
-.navani::before { /*hover animation closing*/
+.nav::before { /*hover animation closing*/
     content: '';
     display: block;
     position: absolute;
@@ -100,29 +89,35 @@ nav ul a {
     transition: color 1.1s,transform 0.3s ease-out;
 }
 
-.navani:hover::before, 
-.navani:focus::before { /*hover animation active*/
+.nav:hover::before, 
+.nav:focus::before { /*hover animation active*/
     background-color: var(--dblue-l);
     transform-origin: center;
     transform: scale(1, 0.4);
 }
-
-.navhov:hover {
+.nav1 {
+    position: relative; /*position*/
+    display: flex; /*item*/
+    margin: 0 12px; /*Spacing bettween element*/
+    letter-spacing: 1px; /*Spacing bettween each letter*/
+    font-size: 12px; /*font size for navigation text*/
+    line-height: 16px; /*hover bar hight*/
+    font-weight: 500; /*Text weight (thickness)*/
+    text-transform: uppercase; /*Text on navigation*/
+    transition: color 0.1s,background-color 0.1s,padding 0.2s ease-in; /*hover animation speed*/
+    color: var(--gray-l4);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: color 0.5s, color 0.5s;
+}
+.nav1:hover {
     color: var(--deep-sea-blue);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     transition: 0.5s;
-}
-
-.navhov {
-    color: var(--gray-l4); /*#eeaa00;*/
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    transition: color 0.5s, color 0.5s; /*hover animation speed*/
 }
 
 #logo {
@@ -242,7 +237,7 @@ nav ul a {
 }
 
 .block-ef {
-    padding: 100px 0px;
+    padding: 140px 0px;
 }
 
 .block-end {
@@ -286,11 +281,14 @@ footer {
     text-align: right;
     font-size: 12px;
     color: inherit;
+    font-weight: 300;
 }
 
 .flex-container {
     display: flex;
     flex-wrap: nowrap;
+    padding: 5px 0px 5px 25px;
+
 
 }
 
@@ -383,5 +381,84 @@ p {
   
   /* When moving the mouse over the close button */
   .closebtn:hover {
-    color: black;
+    color: #1a237e;
+    transition-duration: 0.5s;
   }
+
+  table {
+    font-family: 'Oxanium', cursive;
+    padding: 10px 0px;
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 450px;
+    text-align: left;
+}
+
+.text-b {
+    font-family: 'Oxanium', cursive;
+    padding: 20px 0px;
+    color: var(--just-black);
+    font-size: 20px;
+}
+
+.pad {
+    padding: 0px 50px;
+}
+
+.footer-col {
+    padding: 0px 10px 0px 0px;
+}
+
+@media only screen and (max-width: 1080px) {
+	.flex-container {
+		display: block;
+	}
+
+    .hero-full {
+        height: 53.5vh;
+        width: 100vw;
+        background-position: bottom;
+    }
+    .block-full {
+        padding: 264px 0px;   
+    }
+
+    .hero-l-banner {
+        height: 43.5vh;
+        width: 100vw;
+        background-position: bottom;
+    }
+    .block-l-banner {
+    padding: 276px;   
+    }
+
+    .hero-banner {
+        height: 33.5vh;
+        width: 100vw;
+        background-position: 0% 70%;
+    }
+    .block-banner {
+    padding: 60px 0px;   
+    }
+
+    .hero-s-banner {
+        height: 23.5vh;
+        width: 100vw;
+        background-position: 0% 0%;
+    }
+    .block-s-banner {
+        padding: 67px 0px;
+    }
+
+    #Avan_41 {
+        font-weight: 600;
+        font-size: 50px;
+    }
+    
+    #A3x2a {
+        font-weight: 300;
+        padding: 0px 0px 0px 50px;
+        font-size: 50px;
+        margin: 0;
+    }
+}
