@@ -68,7 +68,8 @@ nav {
 .nav {
     position: relative; /*position*/
     display: flex; /*item*/
-    margin: 0 12px; /*Spacing bettween element*/
+    /*margin: 0 12px; /*Spacing bettween element*/
+    padding: 0px 12px;
     letter-spacing: 1px; /*Spacing bettween each letter*/
     font-size: 12px; /*font size for navigation text*/
     line-height: 16px; /*hover bar hight*/
@@ -364,12 +365,10 @@ p {
     padding: 10px 20px 10px 40px;
     background-color: #ff3333; /* Red */
     color: white;
-    margin-bottom: 0px;
   }
   
   /* The close button */
   .closebtn {
-    margin-left: 0px;
     color: white;
     font-weight: bold;
     float: right;
@@ -459,6 +458,9 @@ p {
         font-weight: 300;
         padding: 0px 0px 0px 50px;
         font-size: 50px;
-        margin: 0;
+    }
+
+    #e2v6c {
+        display: none;
     }
 }
