@@ -416,6 +416,16 @@ p {
 
 @media only screen and (max-width: 500px) {
 
+    #Avan_41 {
+    font-weight: 500;
+    font-size: 50px;
+    }
+
+    #A3x2a {
+    font-size: 50px;
+    }
+
+
     .HOM {
         visibility: hidden;
     }
@@ -433,7 +443,7 @@ p {
         background-position: bottom;
     }
     .block-full {
-        padding: 264px 0px;   
+        padding: 151px 0px;   
     }
 
     .hero-l-banner {
