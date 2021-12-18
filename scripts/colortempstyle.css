@@ -27,14 +27,14 @@
 
 .text-w {
     font-family: 'Oxanium', cursive;
-    padding: 14px 0px;
+    padding: 14px 10px;
     color: var(--pure-white);
     font-size: 16px;
 }
 
 .text-b {
     font-family: 'Oxanium', cursive;
-    padding: 14px 0px;
+    padding: 14px 10px;
     color: var(--just-black);
     font-size: 16px;
 }

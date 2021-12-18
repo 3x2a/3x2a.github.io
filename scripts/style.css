@@ -43,6 +43,14 @@ html {
     width: 0;  /* Remove scrollbar space */
     background: transparent;  /* Optional: just make scrollbar invisible */
 }
+/*--- Item ---*/
+.HOC {
+    visibility: hidden;
+}
+
+.ROC {
+    display: none;
+}
 
 /*--- Nav ---*/
 li {
@@ -55,7 +63,6 @@ li a {
 }
 nav ul {
 	display: flex;
-    
 }
 nav {
 	display: flex;	
@@ -68,8 +75,7 @@ nav {
 .nav {
     position: relative; /*position*/
     display: flex; /*item*/
-    /*margin: 0 12px; /*Spacing bettween element*/
-    padding: 0px 12px;
+    margin: 0 12px; /*Spacing bettween element*/
     letter-spacing: 1px; /*Spacing bettween each letter*/
     font-size: 12px; /*font size for navigation text*/
     line-height: 16px; /*hover bar hight*/
@@ -89,13 +95,13 @@ nav {
     transform: scale(0, 0.4);
     transition: color 1.1s,transform 0.3s ease-out;
 }
-
 .nav:hover::before, 
 .nav:focus::before { /*hover animation active*/
     background-color: var(--dblue-l);
     transform-origin: center;
     transform: scale(1, 0.4);
 }
+
 .nav1 {
     position: relative; /*position*/
     display: flex; /*item*/
@@ -409,6 +415,14 @@ p {
 }
 
 @media only screen and (max-width: 500px) {
+
+    .HOM {
+        visibility: hidden;
+    }
+    .ROM {
+        display: none;
+    }    
+
 	.flex-container {
 		display: block;
 	}
