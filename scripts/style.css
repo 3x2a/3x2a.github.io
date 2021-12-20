@@ -417,6 +417,7 @@ p {
     font-family: 'Oxanium', cursive;
     padding: 0px 0px 0px 50px;
     color: var(--just-black);
+    color: inherit;
     display: block;
     font-size: 20;
     font-weight: 600;
@@ -606,6 +607,7 @@ p {
         font-family: 'Oxanium', cursive;
         padding: 0px 0px 0px 5px;
         color: var(--just-black);
+        color: inherit;
         display: block;
         font-size: 20;
         font-weight: 600;
