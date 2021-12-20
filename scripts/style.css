@@ -23,6 +23,7 @@
     --deep-sea-blue: #004780;
     --img-bg1: url("https://avan-xli.github.io/assets/img_bg1.jpg");
     --img-bg2: url("https://avan-xli.github.io/assets/img_bg2.jpg");
+    margin: 0;
 }
 
 * {
@@ -70,6 +71,10 @@ nav {
 	align-items: center; /*vertically aligns elements within their container*/
     background-color: var(--just-black);
     height: 50px;
+}
+
+#blankp-logo {
+    margin-top: 6px;
 }
 
 .nav {
@@ -150,11 +155,13 @@ nav {
     font-size: 84px;
 }
 
-.mtitle {
+#mtitle {
     font-family: 'Oxanium', cursive;
-    color: var(--just-black);
+    padding: 0px 0px 0px 75px;
+    color: var(--pure-white);
     font-weight: 500;
-    font-size: 84px;
+    font-size: 75px;
+    margin: 0;
 }
 
 /*--- Header ---*/
@@ -172,7 +179,7 @@ nav {
 }
 
 .hero-full {
-    height: 93.5vh;
+    height: 700px;
     width: 100vw;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -190,7 +197,7 @@ nav {
 }
 
 .hero-banner {
-    height: 53.5vh;
+    height: 400px;
     width: 100vw;
     background-position: 0% 70%;
     background-repeat: no-repeat;
@@ -199,7 +206,7 @@ nav {
 }
 
 .hero-s-banner {
-    height: 33.5vh;
+    height: 230px;
     width: 100vw;
     background-position: 0% 0%;
     background-repeat: no-repeat;
@@ -209,13 +216,13 @@ nav {
 
 .hero-ml {
     background-color: var(--deep-sea-blue);
-    height: 33.5vh;
+    height: 250px;
     width: 100vw;
 }
 
 .hero-image-blank {
     height: 100vh;
-    width: 98.9vw;
+    width: 100vw;
     background-color: #aaaaaa;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -406,6 +413,16 @@ p {
     font-size: 20px;
 }
 
+.exli {
+    font-family: 'Oxanium', cursive;
+    padding: 0px 0px 0px 50px;
+    color: var(--just-black);
+    display: block;
+    font-size: 20;
+    font-weight: 600;
+    margin: 0;
+}
+
 .pad {
     padding: 0px 50px;
 }
@@ -419,196 +436,73 @@ p {
 }
 
 @media only screen and (max-width: 1205px) {
-    #e2v0a {
-        display: none;
-    }
+    #e2v0a {display: none;}
 }
 @media only screen and (max-width: 1155px) {
-    #e2v0a {
-        display: none;
-    }
-
-    #e2v0b {
-        display: none;
-    }
+    #e2v0a {display: none;}
+    #e2v0b {display: none;}
 }
 @media only screen and (max-width: 1105px) {
-    #e2v0a {
-        display: none;
-    }
-
-    #e2v0b {
-        display: none;
-    }
-
-    #e2v0c {
-        display: none;
-    }
+    #e2v0a {display: none;}
+    #e2v0b {display: none;}
+    #e2v0c {display: none;}
 }
 @media only screen and (max-width: 1055px) {
-    #e2v0a {
-        display: none;
-    }
-
-    #e2v0b {
-        display: none;
-    }
-
-    #e2v0c {
-        display: none;
-    }
-
-    #e2v0d {
-        display: none;
-    }
+    #e2v0a {display: none;}
+    #e2v0b {display: none;}
+    #e2v0c {display: none;}
+    #e2v0d {display: none;}
 }
 @media only screen and (max-width: 1005px) {
-    #e2v0a {
-        display: none;
-    }
-
-    #e2v0b {
-        display: none;
-    }
-
-    #e2v0c {
-        display: none;
-    }
-
-    #e2v0d {
-        display: none;
-    }
-
-    #e2v0e {
-        display: none;
-    }
+    #e2v0a {display: none;}
+    #e2v0b {display: none;}
+    #e2v0c {display: none;}
+    #e2v0d {display: none;}
+    #e2v0e {display: none;}
 }
 @media only screen and (max-width: 955px) {
-    #e2v0a {
-        display: none;
-    }
-
-    #e2v0b {
-        display: none;
-    }
-
-    #e2v0c {
-        display: none;
-    }
-
-    #e2v0d {
-        display: none;
-    }
-
-    #e2v0e {
-        display: none;
-    }
+    #e2v0a {display: none;}
+    #e2v0b {display: none;}
+    #e2v0c {display: none;}
+    #e2v0d {display: none;}
+    #e2v0e {display: none;}
 }
 @media only screen and (max-width: 905px) {
-    #e2v0a {
-        display: none;
-    }
-
-    #e2v0b {
-        display: none;
-    }
-
-    #e2v0c {
-        display: none;
-    }
-
-    #e2v0d {
-        display: none;
-    }
-
-    #e2v0e {
-        display: none;
-    }
-
-    #e2v0f {
-        display: none;
-    }
+    #e2v0a {display: none;}
+    #e2v0b {display: none;}
+    #e2v0c {display: none;}
+    #e2v0d {display: none;}
+    #e2v0e {display: none;}
+    #e2v0f {display: none;}
 }
 @media only screen and (max-width: 975px) {
-    #e2v0a {
-        display: none;
-    }
-
-    #e2v0b {
-        display: none;
-    }
-
-    #e2v0c {
-        display: none;
-    }
-
-    #e2v0d {
-        display: none;
-    }
-
-    #e2v0e {
-        display: none;
-    }
-
-    #e2v0f {
-        display: none;
-    }
-
-    #e2v0g {
-        display: none;
-    }
+    #e2v0a {display: none;}
+    #e2v0b {display: none;}
+    #e2v0c {display: none;}
+    #e2v0d {display: none;}
+    #e2v0e {display: none;}
+    #e2v0f {display: none;}
+    #e2v0g {display: none;}
 }
 @media only screen and (max-width: 955px) {
-    #e2v0a {
-        display: none;
-    }
-
-    #e2v0b {
-        display: none;
-    }
-
-    #e2v0c {
-        display: none;
-    }
-
-    #e2v0d {
-        display: none;
-    }
-
-    #e2v0e {
-        display: none;
-    }
-
-    #e2v0f {
-        display: none;
-    }
+    #e2v0a {display: none;}
+    #e2v0b {display: none;}
+    #e2v0c {display: none;}
+    #e2v0d {display: none;}
+    #e2v0e {display: none;}
+    #e2v0f {display: none;}
 }
 @media only screen and (max-width: 935px) {
-    #e2v0a {
-        display: none;
-    }
-    #e2v0b {
-        display: none;
-    }
-    #e2v0c {
-        display: none;
-    }
-    #e2v0d {
-        display: none;
-    }
-    #e2v0e {
-        display: none;
-    }
-    #e2v0f {
-        display: none;
-    }
-    #e2v0g {
-        display: none;
-    }
-    #e2v0h {
-        display: none;
-    }
+    #e2v0a {display: none;}
+    #e2v0b {display: none;}
+    #e2v0c {display: none;}
+    #e2v0d {display: none;}
+    #e2v0e {display: none;}
+    #e2v0f {display: none;}
+    #e2v0g {display: none;}
+    #e2v0h {display: none;}
 }
+/**/
 @media only screen and (max-width: 915px) {
 
     nav ul {
@@ -621,6 +515,15 @@ p {
         background-color: #ff3333; /* Red */
         color: white;
         font-size: 10px;
+    }
+
+    table {
+        font-family: 'Oxanium', cursive;
+        padding: 10px 0px;
+        border-collapse: collapse;
+        table-layout: fixed;
+        width: 200px;
+        text-align: left;
     }
 
     #Avan_41 {
@@ -651,7 +554,7 @@ p {
     }
 
     .hero-full {
-        height: 25vh;
+        height: 200px;
         width: 100vw;
         background-position: bottom;
     }
@@ -660,30 +563,53 @@ p {
     }
 
     .hero-l-banner {
-        height: 20vh;
+        height: 175px;
         width: 100vw;
         background-position: bottom;
     }
     .block-l-banner {
-    padding: 56px;   
+    padding: 56px 0px;   
     }
 
     .hero-banner {
-        height: 15vh;
+        height: 150px;
         width: 100vw;
         background-position: 0% 70%;
     }
     .block-banner {
-    padding: 42px 0px;   
+    padding: 25px 0px;   
     }
 
     .hero-s-banner {
-        height: 10vh;
+        height: 100px;
         width: 100vw;
         background-position: 0% 0%;
     }
     .block-s-banner {
-        padding: 28px 0px;
+        padding: 25px 0px;
+    }
+
+    .hero-ml {
+        background-color: var(--deep-sea-blue);
+        height: 100px;
+        width: 100vw;
+    }
+
+    #mtitle {
+        color: var(--pure-white);
+        font-weight: 300;
+        font-size: 60px;
+        padding: 0px 0px 0px 5px;
+    }
+
+    .exli {
+        font-family: 'Oxanium', cursive;
+        padding: 0px 0px 0px 5px;
+        color: var(--just-black);
+        display: block;
+        font-size: 20;
+        font-weight: 600;
+        margin: 0;
     }
 
     #e2v0a {
@@ -716,42 +642,42 @@ p {
         text-align: 0px 1px;
         padding: 0px 5px;
         color: var(--just-black);
-        font-size: 35px;
+        font-size: 40px;
     }
 
     h2 {
         text-align: 0px 10px;
         padding: 3px 5px;
         color: var(--just-black);
-        font-size: 30px;
+        font-size: 35px;
     }
 
     h3 {
         text-align: 0px 0px;
         padding: 0px 5px;
         color: var(--just-black);
-        font-size: 25px;
+        font-size: 30px;
     }
 
     h4 {
         text-align: 0px 1px;
         padding: 0px 0px 0px 5px;
         color: var(--just-black);
-        font-size: 20px;
+        font-size: 25px;
     }
 
     h5 {
         text-align: 0px 10px;
         padding: 30px 50px 0px 50px;
         color: var(--just-black);
-        font-size: 15px;
+        font-size: 20px;
     } 
 
     h6 {
         text-align: 10px 1px;
         padding: 0px 5px;
         color: var(--just-black);
-        font-size: 10px;
+        font-size: 15px;
         font-weight: 400;
     }
 
@@ -759,7 +685,7 @@ p {
         text-align: 10px 1px;
         padding: 0px 5px;
         color: var(--just-black);
-        font-size: 5px;
+        font-size: 12px;
         font-weight: 400;
     }
 
@@ -789,7 +715,7 @@ p {
     }
 
     #Avan_41 {
-    font-weight: 500;
+    font-weight: 600;
     font-size: 40px;
     }
 
@@ -814,42 +740,6 @@ p {
 
     .pad {
         padding: 0px 5px;
-    }
-
-    .hero-full {
-        height: 25vh;
-        width: 100vw;
-        background-position: bottom;
-    }
-    .block-full {
-        padding: 75px 0px;   
-    }
-
-    .hero-l-banner {
-        height: 20vh;
-        width: 100vw;
-        background-position: bottom;
-    }
-    .block-l-banner {
-    padding: 56px;   
-    }
-
-    .hero-banner {
-        height: 15vh;
-        width: 100vw;
-        background-position: 0% 70%;
-    }
-    .block-banner {
-    padding: 42px 0px;   
-    }
-
-    .hero-s-banner {
-        height: 10vh;
-        width: 100vw;
-        background-position: 0% 0%;
-    }
-    .block-s-banner {
-        padding: 28px 0px;
     }
 
     #e2v0a {
@@ -878,574 +768,6 @@ p {
     }
     #e2v0i {
         display: none;
-    }
-
-    
-    h1 {
-        text-align: 0px 1px;
-        padding: 0px 15px;
-        color: var(--just-black);
-        font-size: 35px;
-    }
-
-    h2 {
-        text-align: 0px 10px;
-        padding: 3px 5px;
-        color: var(--just-black);
-        font-size: 30px;
-    }
-
-    h3 {
-        text-align: 0px 0px;
-        padding: 0px 15px;
-        color: var(--just-black);
-        font-size: 25px;
-    }
-
-    h4 {
-        text-align: 0px 1px;
-        padding: 0px 0px 0px 15px;
-        color: var(--just-black);
-        font-size: 20px;
-    }
-
-    h5 {
-        text-align: 0px 10px;
-        padding: 30px 50px 0px 15px;
-        color: var(--just-black);
-        font-size: 15px;
-    } 
-
-    h6 {
-        text-align: 10px 1px;
-        padding: 0px 15px;
-        color: var(--just-black);
-        font-size: 10px;
-        font-weight: 400;
-    }
-
-    p {
-        text-align: 10px 1px;
-        padding: 0px 15px;
-        color: var(--just-black);
-        font-size: 5px;
-        font-weight: 400;
-    }
-
-    .footext {
-        font-size: 12px;
-    }
-}
-@media only screen and (max-width: 390px) {
-
-    nav ul {
-        display: none;
-    }
-
-    .alert {
-        font-family: 'Oxanium', cursive;
-        padding: 10px 20px 10px 10px;
-        background-color: #ff3333; /* Red */
-        color: white;
-        font-size: 8px;
-    }
-
-    .closebtn {
-        color: white;
-        font-weight: bold;
-        float: right;
-        font-size: 20px;
-        line-height: 12px;
-        cursor: pointer;
-        transition: 0.3s;
-    }
-
-    #Avan_41 {
-    font-weight: 500;
-    font-size: 40px;
-    }
-
-    #A3x2a {
-    font-weight: 200;
-    font-size: 40px;
-    padding: 0px 0px 0px 5px;
-    }
-
-
-    .HOM {
-        visibility: hidden;
-    }
-    .ROM {
-        display: none;
-    }    
-
-	.flex-container {
-		display: block;
-        padding: 5px 0px 5px 15px;
-	}
-
-    .pad {
-        padding: 0px 5px;
-    }
-
-    .hero-full {
-        height: 25vh;
-        width: 100vw;
-        background-position: bottom;
-    }
-    .block-full {
-        padding: 62px 0px;   
-    }
-
-    .hero-l-banner {
-        height: 20vh;
-        width: 100vw;
-        background-position: bottom;
-    }
-    .block-l-banner {
-    padding: 56px;   
-    }
-
-    .hero-banner {
-        height: 15vh;
-        width: 100vw;
-        background-position: 0% 70%;
-    }
-    .block-banner {
-    padding: 42px 0px;   
-    }
-
-    .hero-s-banner {
-        height: 10vh;
-        width: 100vw;
-        background-position: 0% 0%;
-    }
-    .block-s-banner {
-        padding: 28px 0px;
-    }
-
-    #e2v0a {
-        display: none;
-    }
-    #e2v0b {
-        display: none;
-    }
-    #e2v0c {
-        display: none;
-    }
-    #e2v0d {
-        display: none;
-    }
-    #e2v0e {
-        display: none;
-    }
-    #e2v0f {
-        display: none;
-    }
-    #e2v0g {
-        display: none;
-    }
-    #e2v0h {
-        display: none;
-    }
-    #e2v0i {
-        display: none;
-    }
-
-    
-    h1 {
-        text-align: 0px 1px;
-        padding: 0px 15px;
-        color: var(--just-black);
-        font-size: 35px;
-    }
-
-    h2 {
-        text-align: 0px 10px;
-        padding: 3px 5px;
-        color: var(--just-black);
-        font-size: 30px;
-    }
-
-    h3 {
-        text-align: 0px 0px;
-        padding: 0px 15px;
-        color: var(--just-black);
-        font-size: 25px;
-    }
-
-    h4 {
-        text-align: 0px 1px;
-        padding: 0px 0px 0px 15px;
-        color: var(--just-black);
-        font-size: 20px;
-    }
-
-    h5 {
-        text-align: 0px 10px;
-        padding: 30px 50px 0px 15px;
-        color: var(--just-black);
-        font-size: 15px;
-    } 
-
-    h6 {
-        text-align: 10px 1px;
-        padding: 0px 15px;
-        color: var(--just-black);
-        font-size: 10px;
-        font-weight: 400;
-    }
-
-    p {
-        text-align: 10px 1px;
-        padding: 0px 15px;
-        color: var(--just-black);
-        font-size: 5px;
-        font-weight: 400;
-    }
-
-    .footext {
-        font-size: 12px;
-    }
-}
-@media only screen and (max-width: 380px) {
-
-    nav ul {
-        display: none;
-    }
-
-    .alert {
-        font-family: 'Oxanium', cursive;
-        padding: 10px 20px 10px 10px;
-        background-color: #ff3333; /* Red */
-        color: white;
-        font-size: 8px;
-    }
-
-    .closebtn {
-        color: white;
-        font-weight: bold;
-        float: right;
-        font-size: 20px;
-        line-height: 12px;
-        cursor: pointer;
-        transition: 0.3s;
-    }
-
-    #Avan_41 {
-    font-weight: 500;
-    font-size: 40px;
-    }
-
-    #A3x2a {
-    font-weight: 200;
-    font-size: 40px;
-    padding: 0px 0px 0px 5px;
-    }
-
-
-    .HOM {
-        visibility: hidden;
-    }
-    .ROM {
-        display: none;
-    }    
-
-	.flex-container {
-		display: block;
-        padding: 5px 0px 5px 15px;
-	}
-
-    .pad {
-        padding: 0px 5px;
-    }
-
-    .hero-full {
-        height: 25vh;
-        width: 100vw;
-        background-position: bottom;
-    }
-    .block-full {
-        padding: 65px 0px;   
-    }
-
-    .hero-l-banner {
-        height: 20vh;
-        width: 100vw;
-        background-position: bottom;
-    }
-    .block-l-banner {
-    padding: 56px;   
-    }
-
-    .hero-banner {
-        height: 15vh;
-        width: 100vw;
-        background-position: 0% 70%;
-    }
-    .block-banner {
-    padding: 42px 0px;   
-    }
-
-    .hero-s-banner {
-        height: 10vh;
-        width: 100vw;
-        background-position: 0% 0%;
-    }
-    .block-s-banner {
-        padding: 28px 0px;
-    }
-
-    #e2v0a {
-        display: none;
-    }
-    #e2v0b {
-        display: none;
-    }
-    #e2v0c {
-        display: none;
-    }
-    #e2v0d {
-        display: none;
-    }
-    #e2v0e {
-        display: none;
-    }
-    #e2v0f {
-        display: none;
-    }
-    #e2v0g {
-        display: none;
-    }
-    #e2v0h {
-        display: none;
-    }
-    #e2v0i {
-        display: none;
-    }
-
-    
-    h1 {
-        text-align: 0px 1px;
-        padding: 0px 15px;
-        color: var(--just-black);
-        font-size: 35px;
-    }
-
-    h2 {
-        text-align: 0px 10px;
-        padding: 3px 5px;
-        color: var(--just-black);
-        font-size: 30px;
-    }
-
-    h3 {
-        text-align: 0px 0px;
-        padding: 0px 15px;
-        color: var(--just-black);
-        font-size: 25px;
-    }
-
-    h4 {
-        text-align: 0px 1px;
-        padding: 0px 0px 0px 15px;
-        color: var(--just-black);
-        font-size: 20px;
-    }
-
-    h5 {
-        text-align: 0px 10px;
-        padding: 30px 50px 0px 15px;
-        color: var(--just-black);
-        font-size: 15px;
-    } 
-
-    h6 {
-        text-align: 10px 1px;
-        padding: 0px 15px;
-        color: var(--just-black);
-        font-size: 10px;
-        font-weight: 400;
-    }
-
-    p {
-        text-align: 10px 1px;
-        padding: 0px 15px;
-        color: var(--just-black);
-        font-size: 5px;
-        font-weight: 400;
-    }
-
-    .footext {
-        font-size: 12px;
-    }
-}
-@media only screen and (max-width: 340px) {
-
-    nav ul {
-        display: none;
-    }
-
-    .alert {
-        font-family: 'Oxanium', cursive;
-        padding: 10px 20px 10px 10px;
-        background-color: #ff3333; /* Red */
-        color: white;
-        font-size: 8px;
-    }
-
-    .closebtn {
-        color: white;
-        font-weight: bold;
-        float: right;
-        font-size: 20px;
-        line-height: 12px;
-        cursor: pointer;
-        transition: 0.3s;
-    }
-
-    #Avan_41 {
-    font-weight: 500;
-    font-size: 40px;
-    }
-
-    #A3x2a {
-    font-weight: 200;
-    font-size: 40px;
-    padding: 0px 0px 0px 5px;
-    }
-
-
-    .HOM {
-        visibility: hidden;
-    }
-    .ROM {
-        display: none;
-    }    
-
-	.flex-container {
-		display: block;
-        padding: 5px 0px 5px 15px;
-	}
-
-    .pad {
-        padding: 0px 5px;
-    }
-
-    .hero-full {
-        height: 25vh;
-        width: 100vw;
-        background-position: bottom;
-    }
-    .block-full {
-        padding: 40px 0px;   
-    }
-
-    .hero-l-banner {
-        height: 20vh;
-        width: 100vw;
-        background-position: bottom;
-    }
-    .block-l-banner {
-    padding: 56px;   
-    }
-
-    .hero-banner {
-        height: 15vh;
-        width: 100vw;
-        background-position: 0% 70%;
-    }
-    .block-banner {
-    padding: 42px 0px;   
-    }
-
-    .hero-s-banner {
-        height: 10vh;
-        width: 100vw;
-        background-position: 0% 0%;
-    }
-    .block-s-banner {
-        padding: 28px 0px;
-    }
-
-    #e2v0a {
-        display: none;
-    }
-    #e2v0b {
-        display: none;
-    }
-    #e2v0c {
-        display: none;
-    }
-    #e2v0d {
-        display: none;
-    }
-    #e2v0e {
-        display: none;
-    }
-    #e2v0f {
-        display: none;
-    }
-    #e2v0g {
-        display: none;
-    }
-    #e2v0h {
-        display: none;
-    }
-    #e2v0i {
-        display: none;
-    }
-
-    
-    h1 {
-        text-align: 0px 1px;
-        padding: 0px 15px;
-        color: var(--just-black);
-        font-size: 35px;
-    }
-
-    h2 {
-        text-align: 0px 10px;
-        padding: 3px 5px;
-        color: var(--just-black);
-        font-size: 30px;
-    }
-
-    h3 {
-        text-align: 0px 0px;
-        padding: 0px 15px;
-        color: var(--just-black);
-        font-size: 25px;
-    }
-
-    h4 {
-        text-align: 0px 1px;
-        padding: 0px 0px 0px 15px;
-        color: var(--just-black);
-        font-size: 20px;
-    }
-
-    h5 {
-        text-align: 0px 10px;
-        padding: 30px 50px 0px 15px;
-        color: var(--just-black);
-        font-size: 15px;
-    } 
-
-    h6 {
-        text-align: 10px 1px;
-        padding: 0px 15px;
-        color: var(--just-black);
-        font-size: 10px;
-        font-weight: 400;
-    }
-
-    p {
-        text-align: 10px 1px;
-        padding: 0px 15px;
-        color: var(--just-black);
-        font-size: 5px;
-        font-weight: 400;
     }
 
     .footext {
@@ -1487,7 +809,6 @@ p {
     padding: 0px 0px 0px 5px;
     }
 
-
     .HOM {
         visibility: hidden;
     }
@@ -1502,42 +823,6 @@ p {
 
     .pad {
         padding: 0px 5px;
-    }
-
-    .hero-full {
-        height: 25vh;
-        width: 100vw;
-        background-position: bottom;
-    }
-    .block-full {
-        padding: 25px 0px;   
-    }
-
-    .hero-l-banner {
-        height: 20vh;
-        width: 100vw;
-        background-position: bottom;
-    }
-    .block-l-banner {
-    padding: 56px;   
-    }
-
-    .hero-banner {
-        height: 15vh;
-        width: 100vw;
-        background-position: 0% 70%;
-    }
-    .block-banner {
-    padding: 42px 0px;   
-    }
-
-    .hero-s-banner {
-        height: 10vh;
-        width: 100vw;
-        background-position: 0% 0%;
-    }
-    .block-s-banner {
-        padding: 28px 0px;
     }
 
     #e2v0a {
@@ -1566,58 +851,6 @@ p {
     }
     #e2v0i {
         display: none;
-    }
-
-    
-    h1 {
-        text-align: 0px 1px;
-        padding: 0px 15px;
-        color: var(--just-black);
-        font-size: 35px;
-    }
-
-    h2 {
-        text-align: 0px 10px;
-        padding: 3px 5px;
-        color: var(--just-black);
-        font-size: 30px;
-    }
-
-    h3 {
-        text-align: 0px 0px;
-        padding: 0px 15px;
-        color: var(--just-black);
-        font-size: 25px;
-    }
-
-    h4 {
-        text-align: 0px 1px;
-        padding: 0px 0px 0px 15px;
-        color: var(--just-black);
-        font-size: 20px;
-    }
-
-    h5 {
-        text-align: 0px 10px;
-        padding: 30px 50px 0px 15px;
-        color: var(--just-black);
-        font-size: 15px;
-    } 
-
-    h6 {
-        text-align: 10px 1px;
-        padding: 0px 15px;
-        color: var(--just-black);
-        font-size: 10px;
-        font-weight: 400;
-    }
-
-    p {
-        text-align: 10px 1px;
-        padding: 0px 15px;
-        color: var(--just-black);
-        font-size: 5px;
-        font-weight: 400;
     }
 
     .footext {
