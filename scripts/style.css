@@ -388,6 +388,13 @@ p {
     background-color: #ff3333; /* Red */
     color: white;
   }
+
+.notify {
+    font-family: 'Oxanium', cursive;
+    padding: 10px 20px 10px 40px;
+    background-color: #1E792C;
+    color: #d30010;
+}
   
   /* The close button */
   .closebtn {
