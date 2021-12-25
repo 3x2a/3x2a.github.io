@@ -515,6 +515,13 @@ p {
 /**/
 @media only screen and (max-width: 915px) {
 
+    .horiline {
+        width: auto;
+        border: 0.1px solid var(--gray-d4);
+        align-content: center;
+        margin: 10px;
+    }
+
     nav ul {
         display: none;
     }
@@ -536,15 +543,22 @@ p {
         text-align: left;
     }
 
+    .text-b {
+        font-family: 'Oxanium', cursive;
+        padding: 20px 10px;
+        color: var(--just-black);
+        font-size: 20px;
+    }
+
     #Avan_41 {
     font-weight: 600;
-    font-size: 60px;
+    font-size: 35px;
     }
 
     #A3x2a {
     font-weight: 300;
-    font-size: 60px;
-    padding: 0px 0px 0px 5px;
+    font-size: 40px;
+    padding: 0px 0px 0px 15px;
     }
 
 
@@ -560,7 +574,7 @@ p {
 	}
 
     .pad {
-        padding: 0px 5px;
+        padding: 0px 15px;
     }
 
     .hero-full {
@@ -651,30 +665,34 @@ p {
     
     h1 {
         text-align: 0px 1px;
-        padding: 0px 5px;
+        padding: 0px 15px;
         color: var(--just-black);
         font-size: 40px;
+        font-weight: 700;
     }
 
     h2 {
         text-align: 0px 10px;
-        padding: 3px 5px;
+        padding: 3px 15px;
         color: var(--just-black);
         font-size: 35px;
+        font-weight: 700;
     }
 
     h3 {
         text-align: 0px 0px;
-        padding: 0px 5px;
+        padding: 0px 15px;
         color: var(--just-black);
         font-size: 30px;
+        font-weight: 600;
     }
 
     h4 {
         text-align: 0px 1px;
-        padding: 0px 0px 0px 5px;
+        padding: 0px 0px 0px 15px;
         color: var(--just-black);
         font-size: 25px;
+        font-weight: 600;
     }
 
     h5 {
@@ -682,19 +700,20 @@ p {
         padding: 30px 50px 0px 50px;
         color: var(--just-black);
         font-size: 20px;
+        font-weight: 500;
     } 
 
     h6 {
         text-align: 10px 1px;
-        padding: 0px 5px;
+        padding: 0px 15px;
         color: var(--just-black);
         font-size: 15px;
-        font-weight: 400;
+        font-weight: 500;
     }
 
     p {
         text-align: 10px 1px;
-        padding: 0px 5px;
+        padding: 0px 15px;
         color: var(--just-black);
         font-size: 12px;
         font-weight: 400;
@@ -725,17 +744,6 @@ p {
         transition: 0.3s;
     }
 
-    #Avan_41 {
-    font-weight: 600;
-    font-size: 40px;
-    }
-
-    #A3x2a {
-    font-weight: 200;
-    font-size: 40px;
-    padding: 0px 0px 0px 5px;
-    }
-
 
     .HOM {
         visibility: hidden;
@@ -750,90 +758,7 @@ p {
 	}
 
     .pad {
-        padding: 0px 5px;
-    }
-
-    #e2v0a {
-        display: none;
-    }
-    #e2v0b {
-        display: none;
-    }
-    #e2v0c {
-        display: none;
-    }
-    #e2v0d {
-        display: none;
-    }
-    #e2v0e {
-        display: none;
-    }
-    #e2v0f {
-        display: none;
-    }
-    #e2v0g {
-        display: none;
-    }
-    #e2v0h {
-        display: none;
-    }
-    #e2v0i {
-        display: none;
-    }
-
-    .footext {
-        font-size: 12px;
-    }
-}
-@media only screen and (max-width: 340px) and (max-hight: 480px) {
-
-    nav ul {
-        display: none;
-    }
-
-    .alert {
-        font-family: 'Oxanium', cursive;
-        padding: 10px 20px 10px 10px;
-        background-color: #ff3333; /* Red */
-        color: white;
-        font-size: 8px;
-    }
-
-    .closebtn {
-        color: white;
-        font-weight: bold;
-        float: right;
-        font-size: 20px;
-        line-height: 12px;
-        cursor: pointer;
-        transition: 0.3s;
-    }
-
-    #Avan_41 {
-    font-weight: 500;
-    font-size: 40px;
-    }
-
-    #A3x2a {
-    font-weight: 200;
-    font-size: 40px;
-    padding: 0px 0px 0px 5px;
-    }
-
-    .HOM {
-        visibility: hidden;
-    }
-    .ROM {
-        display: none;
-    }    
-
-	.flex-container {
-		display: block;
-        padding: 5px 0px 5px 15px;
-	}
-
-    .pad {
-        padding: 0px 5px;
+        padding: 0px 15px;
     }
 
     #e2v0a {
