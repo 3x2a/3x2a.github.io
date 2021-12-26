@@ -23,6 +23,7 @@
     --deep-sea-blue: #004780;
     --img-bg1: url("https://avan-xli.github.io/assets/img_bg1.jpg");
     --img-bg2: url("https://avan-xli.github.io/assets/img_bg2.jpg");
+    --date: newdate;
     margin: 0;
 }
 
@@ -148,7 +149,7 @@ nav {
 #ptitlea {
     font-family: 'Oxanium', cursive;
     padding: 185px 15px 185px 75px;
-    color: var(--just-black);
+    color: var(--black);
     font-weight: 500;
     font-size: 84px;
 }
@@ -268,7 +269,7 @@ nav {
 
 .horiline {
     width: auto;
-    border: 0.1px solid var(--gray-d4);
+    border: 0.1px solid var(--gray-d3);
     align-content: center;
     margin: 30px;
 }
@@ -308,42 +309,42 @@ footer {
 h1 {
     text-align: 0px 10px;
     padding: 0px 0px 0px 50px;
-    color: var(--just-black);
+    color: var(--black);
     font-size: 50px;
 }
 
 h2 {
     text-align: 0px 0px;
     padding: 0px 0px 0px 50px;
-    color: var(--just-black);
+    color: var(--black);
     font-size: 45px;
 }
 
 h3 {
     text-align: 0px 0px;
     padding: 0px 0px 0px 50px;
-    color: var(--just-black);
+    color: var(--black);
     font-size: 40px;
 }
 
 h4 {
     text-align: 0px 10px;
     padding: 0px 0px 0px 50px;
-    color: var(--just-black);
+    color: var(--black);
     font-size: 35px;
 }
 
 h5 {
     text-align: 0px 10px;
     padding: 0px 0px 0px 50px;
-    color: var(--just-black);
+    color: var(--black);
     font-size: 30px;
 }
 
 h6 {
     text-align: 100px 10px;
     padding: 0px 0px 0px 50px;
-    color: var(--just-black);
+    color: var(--black);
     font-size: 25px;
     font-weight: 400;
 }
@@ -351,9 +352,13 @@ h6 {
 p {
     text-align: 100px 10px;
     padding: 0px 0px 0px 50px;
-    color: var(--just-black);
+    color: var(--black);
     font-size: 20px;
     font-weight: 400;
+}
+
+a {
+    color: inherit;
 }
 
 .spacer30 {
@@ -386,7 +391,7 @@ p {
     font-family: 'Oxanium', cursive;
     padding: 10px 20px 10px 40px;
     background-color: #ff3333; /* Red */
-    color: white;
+    color: var(--pure-white);
   }
 
 .notify {
@@ -425,14 +430,14 @@ p {
 .text-b {
     font-family: 'Oxanium', cursive;
     padding: 20px 0px;
-    color: var(--just-black);
+    color: var(--black);
     font-size: 20px;
 }
 
 .exli {
     font-family: 'Oxanium', cursive;
     padding: 0px 0px 0px 50px;
-    color: var(--just-black);
+    color: var(--black);
     color: inherit;
     display: block;
     font-size: 20;
@@ -448,44 +453,44 @@ p {
     padding: 0px 10px 0px 0px;
 }
 
-#e2v0a {
+#current_date {
     display: none;
 }
 
 @media only screen and (max-width: 1205px) {
-    #e2v0a {display: none;}
+    #current_date {display: none;}
 }
 @media only screen and (max-width: 1155px) {
-    #e2v0a {display: none;}
+    #current_date {display: none;}
     #e2v0b {display: none;}
 }
 @media only screen and (max-width: 1105px) {
-    #e2v0a {display: none;}
+    #current_date {display: none;}
     #e2v0b {display: none;}
     #e2v0c {display: none;}
 }
 @media only screen and (max-width: 1055px) {
-    #e2v0a {display: none;}
+    #current_date {display: none;}
     #e2v0b {display: none;}
     #e2v0c {display: none;}
     #e2v0d {display: none;}
 }
 @media only screen and (max-width: 1005px) {
-    #e2v0a {display: none;}
+    #current_date {display: none;}
     #e2v0b {display: none;}
     #e2v0c {display: none;}
     #e2v0d {display: none;}
     #e2v0e {display: none;}
 }
 @media only screen and (max-width: 955px) {
-    #e2v0a {display: none;}
+    #current_date {display: none;}
     #e2v0b {display: none;}
     #e2v0c {display: none;}
     #e2v0d {display: none;}
     #e2v0e {display: none;}
 }
 @media only screen and (max-width: 905px) {
-    #e2v0a {display: none;}
+    #current_date {display: none;}
     #e2v0b {display: none;}
     #e2v0c {display: none;}
     #e2v0d {display: none;}
@@ -493,7 +498,7 @@ p {
     #e2v0f {display: none;}
 }
 @media only screen and (max-width: 975px) {
-    #e2v0a {display: none;}
+    #current_date {display: none;}
     #e2v0b {display: none;}
     #e2v0c {display: none;}
     #e2v0d {display: none;}
@@ -502,7 +507,7 @@ p {
     #e2v0g {display: none;}
 }
 @media only screen and (max-width: 955px) {
-    #e2v0a {display: none;}
+    #current_date {display: none;}
     #e2v0b {display: none;}
     #e2v0c {display: none;}
     #e2v0d {display: none;}
@@ -510,7 +515,7 @@ p {
     #e2v0f {display: none;}
 }
 @media only screen and (max-width: 935px) {
-    #e2v0a {display: none;}
+    #current_date {display: none;}
     #e2v0b {display: none;}
     #e2v0c {display: none;}
     #e2v0d {display: none;}
@@ -541,7 +546,7 @@ p {
         font-size: 10px;
     }
 
-    .alert {
+    .notify {
         font-family: 'Oxanium', cursive;
         padding: 10px 20px 10px 20px;
         background-color: #1E792C;
@@ -560,7 +565,7 @@ p {
     .text-b {
         font-family: 'Oxanium', cursive;
         padding: 20px 10px;
-        color: var(--just-black);
+        color: var(--black);
         font-size: 20px;
     }
 
@@ -643,7 +648,7 @@ p {
     .exli {
         font-family: 'Oxanium', cursive;
         padding: 0px 0px 0px 5px;
-        color: var(--just-black);
+        color: var(--black);
         color: inherit;
         display: block;
         font-size: 20;
@@ -651,7 +656,7 @@ p {
         margin: 0;
     }
 
-    #e2v0a {
+    #current_date {
         display: none;
     }
     #e2v0b {
@@ -680,7 +685,7 @@ p {
     h1 {
         text-align: 0px 1px;
         padding: 0px 15px;
-        color: var(--just-black);
+        color: var(--black);
         font-size: 40px;
         font-weight: 700;
     }
@@ -688,7 +693,7 @@ p {
     h2 {
         text-align: 0px 10px;
         padding: 3px 15px;
-        color: var(--just-black);
+        color: var(--black);
         font-size: 35px;
         font-weight: 700;
     }
@@ -696,7 +701,7 @@ p {
     h3 {
         text-align: 0px 0px;
         padding: 0px 15px;
-        color: var(--just-black);
+        color: var(--black);
         font-size: 30px;
         font-weight: 600;
     }
@@ -704,7 +709,7 @@ p {
     h4 {
         text-align: 0px 1px;
         padding: 0px 0px 0px 15px;
-        color: var(--just-black);
+        color: var(--black);
         font-size: 25px;
         font-weight: 600;
     }
@@ -712,7 +717,7 @@ p {
     h5 {
         text-align: 0px 10px;
         padding: 30px 50px 0px 50px;
-        color: var(--just-black);
+        color: var(--black);
         font-size: 20px;
         font-weight: 500;
     } 
@@ -720,7 +725,7 @@ p {
     h6 {
         text-align: 10px 1px;
         padding: 0px 15px;
-        color: var(--just-black);
+        color: var(--black);
         font-size: 15px;
         font-weight: 500;
     }
@@ -728,7 +733,7 @@ p {
     p {
         text-align: 10px 1px;
         padding: 0px 15px;
-        color: var(--just-black);
+        color: var(--black);
         font-size: 12px;
         font-weight: 400;
     }
@@ -775,7 +780,7 @@ p {
         padding: 0px 15px;
     }
 
-    #e2v0a {
+    #current_date {
         display: none;
     }
     #e2v0b {

@@ -1,38 +1,65 @@
-// check for saved 'darkMode' in localStorage
-let darkMode = localStorage.getItem('darkMode'); 
+var r = document.querySelector(':root');
+var darkMode = {
+    //primaryColor: '',
+    accentColor: '#e9ecef',
+    //lightPrimary: '#',
+    textColor: '#f8f9fa',
+    //whiteTextColor: '#',
+    backgroundColor: '#161a1d'
+};
 
-const darkModeToggle = document.querySelector('#dark-mode-toggle');
+var lightMode = {
+    //primaryColor: '',
+    accentColor: '#343a40',
+    //lightPrimary: '#',
+    textColor: '#161a1d',
+    //whiteTextColor: '#',
+    backgroundColor: '#f8f9fa'
+};
 
-const enableDarkMode = () => {
-  // 1. Add the class to the body
-  document.body.classList.add('darkmode');
-  // 2. Update darkMode in localStorage
-  localStorage.setItem('darkMode', 'enabled');
+function lightModeEnable() {
+    //r.style.setProperty('--primary-color', lightMode.primaryColor)
+    r.style.setProperty('--accent-color', lightMode.accentColor)
+    //r.style.setProperty('--light-primary', lightMode.lightPrimary)
+    r.style.setProperty('--text-color', lightMode.textColor)
+    //r.style.setProperty('--white-text-color', lightMode.whiteTextColor)
+    r.style.setProperty('--background-color', lightMode.backgroundColor)
 }
 
-const disableDarkMode = () => {
-  // 1. Remove the class from the body
-  document.body.classList.remove('darkmode');
-  // 2. Update darkMode in localStorage 
-  localStorage.setItem('darkMode', null);
-}
- 
-// If the user already visited and enabled darkMode
-// start things off with it on
-if (darkMode === 'enabled') {
-  enableDarkMode();
+function darkModeEnable() {
+    //r.style.setProperty('--primary-color', darkMode.primaryColor);
+    r.style.setProperty('--accent-color', darkMode.accentColor);
+    //r.style.setProperty('--light-primary', darkMode.lightPrimary);
+    r.style.setProperty('--text-color', darkMode.textColor);
+    //r.style.setProperty('--white-text-color', darkMode.whiteTextColor);
+    r.style.setProperty('--background-color', darkMode.backgroundColor);
 }
 
-// When someone clicks the button
-darkModeToggle.addEventListener('click', () => {
-  // get their darkMode setting
-  darkMode = localStorage.getItem('darkMode'); 
-  
-  // if it not current enabled, enable it
-  if (darkMode !== 'enabled') {
-    enableDarkMode();
-  // if it has been enabled, turn it off  
-  } else {  
-    disableDarkMode(); 
-  }
-});
+function lightModeOn() {
+    localStorage.setItem('mode', 'true');
+    lightModeEnable();
+}
+
+function darkModeOn() {
+    localStorage.setItem('mode', 'false');
+    darkModeEnable();
+}
+
+if (localStorage.getItem('mode') == 'false') {
+    console.log('dark')
+    darkModeEnable();
+} else {
+    lightModeEnable();
+    console.log('light')
+}
+
+
+//date function
+var dateObj = new Date();
+var month = dateObj.getUTCMonth() + 1; //months from 1-12
+var day = dateObj.getUTCDate();
+var year = dateObj.getUTCFullYear();
+
+newdate = year + "/" + month + "/" + day;
+
+document.getElementById("current_date").innerHTML = year + "/" + month + "/" + day;
