@@ -392,6 +392,7 @@ a {
     padding: 10px 20px 10px 40px;
     background-color: #ff3333; /* Red */
     color: var(--pure-white);
+    align-content: left;
   }
 
 .notify {
@@ -399,6 +400,7 @@ a {
     padding: 10px 20px 10px 40px;
     background-color: #1E792C;
     color: #d30010;
+    align-content: left;
 }
   
   /* The close button */
@@ -543,6 +545,7 @@ a {
         padding: 10px 20px 10px 20px;
         background-color: #ff3333; /* Red */
         color: white;
+        align-content: left;
         font-size: 10px;
     }
 
@@ -551,6 +554,7 @@ a {
         padding: 10px 20px 10px 20px;
         background-color: #1E792C;
         color: #d30010;
+        align-content: left;
         font-size: 10px;
     }
     table {
