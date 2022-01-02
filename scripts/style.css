@@ -543,8 +543,6 @@ a {
     .alert {
         font-family: 'Oxanium', cursive;
         padding: 10px 20px 10px 20px;
-        background-color: #ff3333; /* Red */
-        color: white;
         align-content: left;
         font-size: 10px;
     }
@@ -552,8 +550,6 @@ a {
     .notify {
         font-family: 'Oxanium', cursive;
         padding: 10px 20px 10px 20px;
-        background-color: #1E792C;
-        color: #d30010;
         align-content: left;
         font-size: 10px;
     }
