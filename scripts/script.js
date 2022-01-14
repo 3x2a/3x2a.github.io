@@ -52,3 +52,25 @@ if (localStorage.getItem('mode') == 'false') {
     lightModeEnable();
     console.log('light')
 }
+
+
+//notify
+window.setInterval(function(){
+
+    var current = new Date();
+    var expiry  = new Date("December 31")
+    var expiry2 = new Date("January 5") //newyear
+  
+    if(current.getTime()>expiry.getTime()){
+      //$('#one').hide();
+      $('#newyear').show();
+    }
+  
+    if(current.getTime()>expiry2.getTime()){
+         $('#newyear').hide();
+         //$('#').show();
+     }
+  
+  }, 3000);
+  
+  //$('#one').show(); 

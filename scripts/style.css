@@ -395,7 +395,8 @@ a {
     align-content: left;
   }
 
-.notify {
+#newyear {
+    display: none;
     font-family: 'Oxanium', cursive;
     padding: 10px 20px 10px 40px;
     background-color: #2255ff;
@@ -553,6 +554,7 @@ a {
         align-content: left;
         font-size: 10px;
     }
+
     table {
         font-family: 'Oxanium', cursive;
         padding: 10px 0px;
