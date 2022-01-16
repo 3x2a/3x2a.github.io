@@ -89,8 +89,7 @@ window.setInterval(function(){
   $('#test-alert-e').hide();
 
 //---
-
-  $(document).ready(function () {
+  window.setInterval(function(){
 
     var start = new Date();
     var end = new Date();

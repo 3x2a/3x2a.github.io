@@ -47,7 +47,7 @@ html {
 }
 
 ::selection {
-    background: #004780cc;
+    background: #1a56aecc;
     color: #ffffff;
   }
 
@@ -399,7 +399,7 @@ a {
     display: none;
     font-family: 'Oxanium', cursive;
     padding: 10px 20px 10px 40px;
-    background-color: #2255ff;
+    background-color: #2255ff; /*#2255ff*/
     color: #ffffff;
     align-content: left;
 }
@@ -407,15 +407,15 @@ a {
 .test-alert-day {
     font-family: 'Oxanium', cursive;
     padding: 10px 20px 10px 40px;
-    background-color: #2255ff;
-    color: #ffffff;
+    background-color: #add8e6;
+    color: var(--gray-d3);
     align-content: left;
 }
 
 .test-alert-night {
     font-family: 'Oxanium', cursive;
     padding: 10px 20px 10px 40px;
-    background-color: #2255ff;
+    background-color: #000220;
     color: #ffffff;
     align-content: left;
 }
