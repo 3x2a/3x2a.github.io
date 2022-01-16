@@ -9,40 +9,7 @@
     <link href="scripts/style.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-    <script src="script.js">
-	window.setInterval(function(){
-
-			var current = new Date();
-			var expiry  = new Date("December 31")
-			var expiry2 = new Date("January 5")
-			var expiry3 = new Date("January 5")
-			var expiry4 = new Date("January 5")
-
-			if(current.getTime()=expiry.getTime()){
-			$('#test-alert-idle').hide();
-			$('#test-alert').show();
-			}
-
-			if(current.getTime()=expiry2.getTime()){
-				$('#test-alert').hide();
-				$('#test-alert-1').show();
-			}
-
-			if(current.getTime()=expiry3.getTime()){
-				$('#test-alert-1').hide();
-				$('#test-alert-2').show();
-			}
-
-			if(current.getTime()=expiry4.getTime()){
-				$('#test-alert-2').hide();
-				$('#test-alert-e').show();
-			}
-
-		}, 3000);
-
-		$('#test-alert-idle').show(); 
-		$('#test-alert-e').hide();
-	</script>
+    <script src="/scripts/script.js"></script>
 <!--Navigation Bar-->
 		<nav>
 			<a href="">
@@ -66,29 +33,14 @@
 			Happy New Year 2022!
 		  </div>
 
-		  <div id="test-alert-idle">
+		  <div class="test-alert-day">
 			<span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
-			Test.Alert.JS.Idle
+			Test.Alert.JS.0015AL.day
 		  </div>
 
-		<div id="test-alert">
+		<div class="test-alert-night">
 			<span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
-			Test.Alert.JS.01.17.2022
-		  </div>
-
-		  <div id="test-alert-1">
-			<span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
-			Test.Alert.JS.01.18.2022
-		  </div>
-
-		  <div id="test-alert-2">
-			<span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
-			Test.Alert.JS.01.19.2022
-		  </div>
-
-		  <div id="test-alert-e">
-			<span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
-			Test.Alert.JS.Version.0015AK.complete
+			Test.Alert.JS.0015AL.night
 		  </div>
 <!--Hero Section-->
 		<div class="hero-full img-bg1">

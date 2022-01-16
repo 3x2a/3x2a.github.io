@@ -404,7 +404,7 @@ a {
     align-content: left;
 }
 
-#test-alert-idle {
+.test-alert-day {
     font-family: 'Oxanium', cursive;
     padding: 10px 20px 10px 40px;
     background-color: #2255ff;
@@ -412,7 +412,7 @@ a {
     align-content: left;
 }
 
-#test-alert {
+.test-alert-night {
     font-family: 'Oxanium', cursive;
     padding: 10px 20px 10px 40px;
     background-color: #2255ff;
@@ -420,29 +420,6 @@ a {
     align-content: left;
 }
 
-#test-alert-1 {
-    font-family: 'Oxanium', cursive;
-    padding: 10px 20px 10px 40px;
-    background-color: #2255ff;
-    color: #ffffff;
-    align-content: left;
-}
-
-#test-alert-2 {
-    font-family: 'Oxanium', cursive;
-    padding: 10px 20px 10px 40px;
-    background-color: #2255ff;
-    color: #ffffff;
-    align-content: left;
-}
- 
-#test-alert-e {
-    font-family: 'Oxanium', cursive;
-    padding: 10px 20px 10px 40px;
-    background-color: #2255ff;
-    color: #ffffff;
-    align-content: left;
-}
 
   /* The close button */
   .closebtn {
