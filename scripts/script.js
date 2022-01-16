@@ -59,18 +59,31 @@ window.setInterval(function(){
 
     var current = new Date();
     var expiry  = new Date("December 31")
-    var expiry2 = new Date("January 5") //newyear
+    var expiry2 = new Date("January 5")
+    var expiry3 = new Date("January 5")
+    var expiry4 = new Date("January 5")
   
-    if(current.getTime()>expiry.getTime()){
-      //$('#one').hide();
-      $('#newyear').show();
+    if(current.getTime()=expiry.getTime()){
+      $('#test-alert-idle').hide();
+      $('#test-alert').show();
     }
   
-    if(current.getTime()>expiry2.getTime()){
-         $('#newyear').hide();
-         //$('#').show();
+    if(current.getTime()=expiry2.getTime()){
+         $('#test-alert').hide();
+         $('#test-alert-1').show();
      }
+
+     if(current.getTime()=expiry3.getTime()){
+        $('#test-alert-1').hide();
+        $('#test-alert-2').show();
+      }
+    
+      if(current.getTime()=expiry4.getTime()){
+           $('#test-alert-2').hide();
+           $('#test-alert-e').show();
+       }
   
   }, 3000);
   
-  //$('#one').show(); 
+  $('#test-alert-idle').show(); 
+  $('#test-alert-e').hide();
