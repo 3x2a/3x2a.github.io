@@ -89,19 +89,24 @@ window.setInterval(function(){
   $('#test-alert-e').hide();
 
 //---
-  window.setInterval(function(){
 
-    var start = new Date();
-    var end = new Date();
-    var time = new Date().getTime();
+alertDT: function()
+    window.setInterval(function(){
+
+        var start = new Date();
+        var end = new Date();
+        var time = new Date().getTime();
     
        //Set the start hours and ending hours
-    if (time > start.setHours(05,00) && time < end.setHours(21,00)) {
-        $('.test-alert-day').show();
-        $('.test-alert-night').hide();
-    }
-    else {
-        $('.test-alert-day').hide();
-        $('.test-alert-night').show();
+        if (time > start.setHours(05,00) && time < end.setHours(21,00)) {
+            $('.test-alert-day').show();
+            $('.test-alert-night').hide();
         }
-    });
+        else {
+            $('.test-alert-day').hide();
+            $('.test-alert-night').show();
+            }
+        });
+
+    console.log(time)
+
