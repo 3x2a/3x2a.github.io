@@ -1,92 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="3x2a.com | personal project site"/>
-    <title>3x2a</title>
-	<link rel="icon" href="/assets/icon-M.svg">
-    <link href="/scripts/style.css" rel="stylesheet" type="text/css">
-  </head>
-  <body>
-    <script src="/scripts/script.js"></script>
-<!--Navigation Bar-->
-		<nav><!--nav id="wsnb"-->
-			<a href="">
-			<img src="/assets/logo.svg" alt="3x2a" id="logo">
-			</a>
-			<ul>
-				<li><a class="nav" href="/about">about me</a></li>
-   		  		<li><a class="nav" href="/hobbies/gallery">gallery</a></li>
-      		    <li><a class="nav" href="/more">more</a></li>
-				  <div class="vertline"></div>
-				<li><a class="nav1" href="/contact" style="padding-right: 30px;">contact me</a></li>
-			</ul>
-		</nav>
-		
-		<div class="alert">
-			<span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
-			This Site is still under development. sorry for the inconveniences
-		  </div>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="3x2a.com No Further Information Given"/>
+		<meta name="google-adsense-account" content="ca-pub-7336576815576194">
+        <title>3x2a.com</title>
+        <link rel="icon" href="/resource/icon/A418Icon-Rounded.svg">
+        <link href="/assets/style.css" rel="stylesheet" type="text/css">
+        <script src="/assets/global.js"></script>
+    </head>
+    <body>
+		<div class="container">
+			<section class="panel heading0">
+				<nav id="navBar">
+					<a id="domaName" href="#">3x2a</a>
+					<p id="pageName">Temporary site</p>
+					<div class="navLinkGroup">
+						<a class="navLinkGroupItem" href="/contact">Contact</a>
+						<div class="navVertLine"></div>
+						<div class="navIconMoat" onclick="themeModeToggle()">
+							<svg class="navIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960">
+								<path class="navIcon1" d="M 480 -105 C 467.001 -105 455.25 -108.125 444.75 -114.375 C 434.25 -120.624 426 -129 420 -139.5 C 403.5 -139.5 389.376 -145.374 377.625 -157.125 C 365.876 -168.874 360 -183 360 -199.5 L 360 -306 C 330.501 -325.5 306.876 -351.249 289.125 -383.25 C 271.376 -415.249 262.5 -450 262.5 -487.5 C 262.5 -547.999 283.626 -599.374 325.875 -641.625 C 368.126 -683.874 419.501 -705 480 -705 C 540.501 -705 591.876 -683.874 634.125 -641.625 C 676.376 -599.374 697.5 -547.999 697.5 -487.5 C 697.5 -448.999 688.626 -414 670.875 -382.5 C 653.126 -351 629.501 -325.5 600 -306 L 600 -199.5 C 600 -183 594.126 -168.874 582.375 -157.125 C 570.626 -145.374 556.5 -139.5 540 -139.5 C 534 -129 525.75 -120.624 515.25 -114.375 C 504.75 -108.125 493.001 -105 480 -105 Z M 420 -199.5 L 540 -199.5 L 540 -226.5 L 420 -226.5 L 420 -199.5 Z M 420 -256.5 L 540 -256.5 L 540 -285 L 420 -285 L 420 -256.5 Z M 414 -345 L 457.5 -345 L 457.5 -426 L 391.5 -492 L 423 -523.5 L 480 -466.5 L 537 -523.5 L 568.5 -492 L 502.5 -426 L 502.5 -345 L 546 -345 C 573 -357.999 595.001 -377.124 612 -402.375 C 629.001 -427.624 637.5 -456 637.5 -487.5 C 637.5 -531.499 622.251 -568.749 591.75 -599.25 C 561.251 -629.749 524.001 -645 480 -645 C 436.001 -645 398.751 -629.749 368.25 -599.25 C 337.751 -568.749 322.5 -531.499 322.5 -487.5 C 322.5 -456 331.001 -427.624 348 -402.375 C 365.001 -377.124 387 -357.999 414 -345 Z M 480 -466.5 Z M 480 -495 Z" transform="matrix(1, 0, 0, 1, 0, 2.2737367544323206e-13)"/>
+								<path class="navIcon2" d="M 289.5 -675 L 225 -738 L 267 -781.5 L 331.5 -717 L 289.5 -675 Z M 450 -765 L 450 -855 L 510 -855 L 510 -765 L 450 -765 Z M 672 -675 L 628.5 -717 L 693 -780 L 735 -738 L 672 -675 Z M 480 -450 Z" style="fill: var(--sppr0);" transform="matrix(1, 0, 0, 1, 0, 2.2737367544323206e-13)"/>
+							</svg>                    
+						</div>
+						<span class="mobileNav" onclick="openNav()"><svg xmlns="http://www.w3.org/2000/svg" class="navIconSettings" viewBox="0 -960 960 960"><path d="M140.001-254.616v-59.999h679.998v59.999H140.001Zm0-195.385v-59.998h679.998v59.998H140.001Zm0-195.384v-59.999h679.998v59.999H140.001Z"/></svg></span>
+					</div>
+				</nav>
+				<div id="myNav" class="overlay">
+					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><svg xmlns="http://www.w3.org/2000/svg" class="navIconMSettings" height="24" viewBox="0 -960 960 960" width="24"><path d="M256-213.847 213.847-256l224-224-224-224L256-746.153l224 224 224-224L746.153-704l-224 224 224 224L704-213.847l-224-224-224 224Z"/></svg></a>
+					<div class="overlay-content">
+						<a class="markLink" href="/gallery">Gallery</a>
+						<a class="markLink" href="/project">Projects</a>
+						<a class="markLink" href="/contact">Contact</a>
+					</div>
+				</div>
+				<header>
+					<h1 class="headTitle">3x2a</h1>
+					<div class="headDeco"></div>
+					
+					<h5 class="headText">
+						This is a temporary site and has no content to show... <br>
+					</h5>
+				</header>
+			</section>
 
-		<div id="newyear">
-			<span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
-			Happy New Year 2022!
-		  </div>
-<!--Hero Section-->
-		<div class="hero-full img-bg1">
-			<div class="block-full">
-			<span id="A3x2a">3x2a | </span>
-    		<span id="Avan_41">Avan_41</span>
-			</div>
+			<section class="panel" id="HLDP">
+				<div class="gridArea">
+					<h5 id="A48T">A418.org?</h5>
+					<h6 id="A48S">Temporary Text</h6>
+				</div>
+				
+
+
+			</section>
+		
+			<section class="panel footerPanel">
+				<div class="footerExt">
+					<p>Ads Powered by Google AdSense</p>
+				</div>
+				<footer class="footer0">
+					<div class="footerLinkGroup">
+						<a class="footerContent fc1" target="_blank" id="f-twitl" href="https://twitter.com/Avan_xli">Twitter</a>
+						<a class="footerContent fc1" target="_blank" id="f-instl" href="https://instagram.com/Avan_xli">Instagram</a>
+						<a class="footerContent fc0" target="_blank" id="f-githu" href="https://github.com/Avan-xli">Github</a>
+						<a class="footerContent fc0" target="_blank" id="f-numbr" href="">0875341893251264</a>
+					</div>
+					<a class="footerContent fc1" target="_blank" id="f-copyr" href="/copyright">Copyright 2024 A418</a>
+				</footer>
+			</section>
 		</div>
-<!--Content-->
-	<hr class="horiline">
-	<h4>3x2a.com</h4>
-	<h6>
-		This site is made for fun.<br>
-		a Fun side Project.<br>
-		I will expand the site with more content like computer shortcuts or something like.
-	</h6>
-	<hr class="horiline">
-	<h4>Placeholder</h4>
-	<h6>
-		This is a placeholder.<br>
-		Content may appear here.<br>
-		Sponsor here?
-	</h6>
-	<hr class="horiline">
-	<h4>Placeholder</h4>
-	<h6>
-		This is a placeholder.<br>
-		Content may appear here.<br>
-		Smartphones these days are too long.
-	</h6>
-	<hr class="horiline">
-	
-	<!--Footer-->
-	<footer>
-		<div class="flex-container">
-			<div class="footer-col"><a class="footext" id="e2v0i" style="color: var(--gray-d4);">3x2a</a></div>
-			<div class="footer-col"><a class="footext" href="https://twitter.com/Avan_41/">Twitter</a></div>
-			<div class="footer-col"><a class="footext" href="https://instagram.com/avan_41/">Instagram</a></div>
-			<div class="footer-col"><a class="footext" href="/discord">Discord</a></div>  
-			<div class="footer-col"><a class="footext" href="https://twitch.tv/avan_41">Twitch</a></div>
-			<div class="footer-col"><a class="footext" href="/morelinks">More ></a></div>
-			<div class="footer-col"><a class="footext" id="e2v0i" style="color: var(--gray-d4);">Nightmare</a></div>
-			<div class="footer-col"><a class="footext" id="e2v0i" style="color: var(--gray-d4);">Nightmare</a></div>
-			<div class="footer-col"><a class="footext" id="e2v0h" style="color: var(--gray-d4);">Nightmare</a></div>
-			<div class="footer-col"><a class="footext" id="e2v0g" style="color: var(--gray-d4);">Nightmare</a></div>
-			<div class="footer-col"><a class="footext" id="e2v0f" style="color: var(--gray-d4);">Technology</a></div>
-			<div class="footer-col"><a class="footext" id="e2v0e" style="color: var(--gray-d4);">Nightmare</a></div>
-			<div class="footer-col"><a class="footext" id="e2v0d" style="color: var(--gray-d4);">Nightmare</a></div>
-			<div class="footer-col"><a class="footext" id="e2v0c" style="color: var(--gray-d4);">3.1415926</a></div>
-			<div class="footer-col"><a class="footext" id="e2v0b" style="color: var(--gray-d4);">Nightmare</a></div>
-			<div class="footer-col"><a class="footext" id="e2v0a" style="color: var(--gray-d4);">Nightmare</a></div>
-			<div class="footer-col"><a class="footext" href="/about/copyright">Copyright 2021 3x2a | Avan_41</a></div>
-			<div class="footer-col"><a class="footext" href="https://github.com/3x2a/3x2a.github.io" id="e2v1a" style="color: var(--gray-d4);">Github</a></div>
-		</div>
-	  </footer>
-</div>
-  </body>
+    </body>
 </html>
